@@ -121,11 +121,14 @@ function bodyColor(e) {
 
     //Verificar qual cor mudar com Local Storage
     if (window.localStorage.getItem("cor") == "Branco") {
-        //Mudar as cores do menu
+        //Mudar as cores do body
         body.style.backgroundColor = "rgb(245, 245, 245 )";
+        body.style.color = "black";
+
     } else {
-        //Mudar as cores do menu
-        body.style.backgroundColor = "#595959";
+        //Mudar as cores do body
+        body.style.backgroundColor = "#262626";
+        body.style.color = "rgb(245, 245, 245 )";
     }
 
 }

@@ -3,10 +3,16 @@
     padding: 0;
 }
 
+html{
+
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(245, 241, 241);
     color: rgb(15, 15, 15);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.3s ease-in;
 }
 
 nav {
@@ -79,7 +85,7 @@ nav ul li a:hover {
 
 .imgApresentacao {
     width: 100%;
-    height: 400px;
+    height: 600px;
     object-fit: cover;
 }
 
@@ -106,8 +112,61 @@ nav ul li a:hover {
     justify-content: center;
 }
 
+.title{
+
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    display: block;
+    margin-bottom: 40px;
+}
+
 .chefes .chefe {
-    background-color: #1b1b1b;
     padding: 80px;
     margin-right: 40px;
+    
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+.chefes .chefe img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 3px solid white;
+    margin-bottom: 10px;
+
+}
+
+.chefes .chefe .nome{
+
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.portefolio{
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;
+}
+
+.siteIMG{
+    border-radius: 5px;
+    width: 750px;
+}
+
+.sites p{
+    
+    font-weight: bold;
+    color: white;
+    background-color:rgb(7, 83, 110) ;
+    padding: 10px;
+    width: 735px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5PX;
+    text-align: center;
+   
 }
