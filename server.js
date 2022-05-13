@@ -73,8 +73,8 @@ app.get("/", (req, res) => {
 });
 
 //Sobre View
-app.get("/sobre", (req, res) => {
-    res.render('html/sobre', { tituloloAdd: 'Sobre Nós' });
+app.get("/pedirServicos", (req, res) => {
+    res.render('html/pedirServiços', { tituloloAdd: 'Sobre Nós' });
 });
 
 //404 página erro

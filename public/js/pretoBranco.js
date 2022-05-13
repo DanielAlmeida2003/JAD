@@ -11,7 +11,7 @@ let body = document.querySelector("body");
 //Evento do botão
 botaoTema.addEventListener('click', mudarCor);
 
-
+console.log("dasdsa");
 //Verficar cor
 function verificarCor(e) {
     //Verificar se existe o localstorage
